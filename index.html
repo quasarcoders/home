@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header id="header">
+    <header id="header" role="banner" aria-label="Cabeçalho Principal">
       <div class="container header-container">
         <h1 class="logo">QuasarCode</h1>
       </div>
@@ -16,12 +16,13 @@
 
     <main>
       <section class="hero reveal">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
           <h2>Inovação que Transforma</h2>
           <p>Convertendo ideias em experiências digitais sofisticadas e funcionais.</p>
           <a href="mailto:quasarcode@tutamail.com" class="btn">Converse Conosco</a>
         </div>
-        <div class="scroll-indicator">
+        <div class="scroll-indicator" role="button" aria-label="Rolar para baixo">
           <span class="arrow">&#8595;</span>
         </div>
       </section>
@@ -30,13 +31,13 @@
         <div class="container">
           <h2>UX & UI</h2>
           <div class="cards">
-            <div class="card">
+            <div class="card" tabindex="0">
               <h3>UX</h3>
-              <p>Desenvolvemos experiências de usuário intuitivas, focando na jornada e na satisfação do cliente.</p>
+              <p>Experiências intuitivas, centradas na jornada e na satisfação do usuário.</p>
             </div>
-            <div class="card">
+            <div class="card" tabindex="0">
               <h3>UI</h3>
-              <p>Criamos interfaces elegantes e funcionais, garantindo uma apresentação visual moderna e impactante.</p>
+              <p>Interfaces elegantes e funcionais com design moderno e impactante.</p>
             </div>
           </div>
         </div>
